@@ -4,17 +4,13 @@
 @import "~@fortawesome/fontawesome-free/css/all.css"; /* for fontawsoem */
 
 
-.active{
- background-color: rgb(10, 172, 108);
-}
+
 .relative {
     position: relative;
   }
-  
   .group {
     position: relative;
   }
-  
   .group:hover .group-hover\:opacity-80 {
     opacity: 0.8; 
   }
