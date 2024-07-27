@@ -5,6 +5,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <BrowserRouter basename="/Start-Framework">  // Ensure this matches your GitHub repo name or Vercel project name
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 )
