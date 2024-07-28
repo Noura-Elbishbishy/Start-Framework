@@ -11,12 +11,12 @@ export default function Contacts() {
            </div>
         
  
-        <div className="w-full grid">
+        <div className="w-full grid justify-center p-1 g-2">
           <input type="text" placeholder='userName' id='userName' className='border-b-2 m-2 p-2'/>
           <input type="number" placeholder='userAge' id='userAge' className='border-b-2 m-2 p-2'/>
           <input type="text" placeholder='userEmail' id='userEmail'  className='border-b-2 m-2 p-2'/>
           <input type="text" placeholder='userPass' id='userPass'  className='border-b-2 m-2 p-2'/>
-          <button className='bg-teal-500 rounded p-2 text-white w-1/3'>Send Message</button>
+          <button className='bg-teal-500 rounded p-2 text-white my-2 w-30 md:w-2/3'>Send Message</button>
         </div>
      </div>
       </>
