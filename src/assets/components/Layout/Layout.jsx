@@ -8,7 +8,9 @@ export default function Layout() {
     <>
       <Navbar />
       {/* routing happens here */}
-      <Outlet />
+      <Outlet>
+        
+      </Outlet>
       <Footer />
     </>
   );

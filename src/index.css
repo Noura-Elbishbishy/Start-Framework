@@ -1,29 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "~@fortawesome/fontawesome-free/css/all.css"; /* for fontawsoem */
 
 
 
-.relative {
-    position: relative;
-  }
-  .group {
-    position: relative;
-  }
-  .group:hover .group-hover\:opacity-80 {
-    opacity: 0.8; 
-  }
-  
-  .transition-opacity {
-    transition: opacity 0.3s ease;
-  }
-  
-  .transition-transform {
-    transition: transform 0.3s ease;
-  }
-  
-  .group-hover\:scale-110 {
-    transform: scale(1.1); 
-  }
-  

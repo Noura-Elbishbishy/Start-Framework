@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className='bg-slate-700 w-full'>
+    <footer className='bg-slate-700 w-full md:relative bottom-0'>
     <div className="container text-white gap-4 w-4/5 m-auto flex flex-col md:flex-row justify-between p-7">
       <div className="child1 text-center md:text-left mb-4 md:mb-0">
         <h3 className='font-bold text-center'>LOCATION</h3>
